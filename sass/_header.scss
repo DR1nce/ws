@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container{
+    width: 450px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header-spans{
+    display: inline;
+    position: relative;
+    top: 0.3rem;
+}
+.web-text{
+    color: #2196F3;
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.72px;
+}
+.studio-text{
+    color: #212121;
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.72px;
+}
+.menu-svg{
+    position: relative;
+    left: 9rem;
+bottom: 0.2rem;
+}
+.header-section{
+    background-image: url(../images/Headerbackg.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+  
+}
+.header-titles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   padding-bottom: 150px;
+   padding-top: 150px;
+   .header-title{
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 23px;
+font-style: normal;
+font-weight: 900;
+line-height: 42px;
+letter-spacing: 1.56px;
+text-transform: uppercase;
+   }
+   .header-button{
+    border-radius: 4px;
+background: #2196F3;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+width: 200px;
+height: 50px;
+flex-shrink: 0;
+.button-text{
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; 
+letter-spacing: 0.96px;
+}
+   }
+}
